@@ -1,5 +1,14 @@
 body {
-  margin: 0 10em;
+  margin: 0 2em;
+  background-color: rgb(223, 223, 223);
+  color: rgb(14, 82, 150);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
 
 .container {
@@ -9,6 +18,7 @@ body {
 
 .row {
   display: flex;
+  justify-content: space-between;
   margin: 0.5em 0;
 }
 
@@ -16,5 +26,23 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 50%;
+}
+
+.left {
+  width: 100%;
+  min-width: min-content;
+}
+
+.right {
+  max-width: max-content;
+}
+
+.about {
+  margin-top: 2em;
+}
+
+.about > h3 {
+  background-color: rgb(37, 37, 37);
+  color: rgb(223, 223, 223);
+  width: fit-content;
 }
