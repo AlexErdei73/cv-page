@@ -1,7 +1,12 @@
-body {
+body,
+.degree {
   margin: 0 2em;
   background-color: rgb(223, 223, 223);
   color: rgb(14, 82, 150);
+}
+
+.degree {
+  margin: 0;
 }
 
 h1,
@@ -41,7 +46,7 @@ p {
   margin-top: 2em;
 }
 
-.about > h3 {
+section > h3 {
   background-color: rgb(37, 37, 37);
   color: rgb(223, 223, 223);
   width: fit-content;
