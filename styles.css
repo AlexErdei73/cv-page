@@ -1,17 +1,13 @@
-body,
-.degree {
+body {
   margin: 0 2em;
   background-color: rgb(223, 223, 223);
   color: rgb(14, 82, 150);
 }
 
-.degree {
-  margin: 0;
-}
-
 h1,
 h2,
 h3,
+h4,
 p {
   margin: 0;
 }
@@ -42,12 +38,13 @@ p {
   max-width: max-content;
 }
 
-.about {
+section {
   margin-top: 2em;
 }
 
 section > h3 {
   background-color: rgb(37, 37, 37);
   color: rgb(223, 223, 223);
+  padding-right: 0.5em;
   width: fit-content;
 }
