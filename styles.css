@@ -48,3 +48,13 @@ section > h3 {
   padding-right: 0.5em;
   width: fit-content;
 }
+
+section > p {
+  margin-bottom: 1em;
+}
+
+p,
+li,
+.container {
+  max-width: 600px;
+}
