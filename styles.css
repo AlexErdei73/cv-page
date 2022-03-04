@@ -86,3 +86,27 @@ a {
 .link {
   color: rgb(180, 23, 133);
 }
+
+@media (min-width: 600px) {
+  body {
+    margin-left: 5em;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    margin-left: 8em;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    margin-left: 15em;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    margin-left: 25em;
+  }
+}
