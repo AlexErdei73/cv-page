@@ -70,3 +70,11 @@ iframe {
   max-width: 400px;
   height: 225px;
 }
+
+.freelance-project {
+  margin-bottom: 0;
+}
+
+.another-job {
+  margin-top: 1em;
+}
