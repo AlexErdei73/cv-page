@@ -78,3 +78,11 @@ iframe {
 .another-job {
   margin-top: 1em;
 }
+
+a {
+  color: rgb(180, 23, 23);
+}
+
+.link {
+  color: rgb(180, 23, 133);
+}
